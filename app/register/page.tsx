@@ -150,10 +150,11 @@ export default function RegisterPage() {
                 </SelectContent>
               </Select>
             </div>
-
-            <Button type="submit" className="w-full bg-primary-500 hover:bg-primary-600 text-navy-800" size="lg">
-              Crear Cuenta
-            </Button>
+            <Link href="/dashboard">
+              <Button type="submit" className="w-full bg-primary-500 hover:bg-primary-600 text-navy-800" size="lg">
+                Crear Cuenta
+              </Button>
+            </Link>
 
             <div className="text-center text-sm text-gray-600">
               ¿Ya tienes cuenta?{" "}
